@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="ru">
+@@include('html/_head.htm',{
+"title":"Главная"
+})
+
+<body>
+	<div class="wrapper">
+		@@include('html/_header.htm',{})
+		<main class="main">
+			<div class="main__container">
+				<section class="ad">
+					<div class="ad__info">
+						<h2 class="ad__title">Весна/Лето 2019</h2>
+						<h3 class="ad__subtitle">Коллекция</h3>
+						<p class="ad__text text">Швейцарские часы в наличии в Москве
+							и с доставкой по всему миру</p>
+						<button class="more">Смотреть каталог</button>
+					</div>
+					<div class="ad__page">
+						<!-- <img src="img/Ellipse (1).png" alt="" class="bg"> -->
+						<img src="img/watch_main.jpg" alt="">
+						<div class="ad__page-price">
+							<div class="ad__page-number number">22 000 ₽</div>
+						</div>
+
+						<div class="ad__page-size">
+							<div class="ad__page-text number">28 мм диаметр</div>
+						</div>
+					</div>
+				</section>
+				<section class="popular">
+					<div class="popular__title title">Популярные модели</div>
+					<div class="popular__more-link">
+						<a href="#">Смотреть все</a>
+					</div>
+					<div class="popular__items">
+						<div class="popular__item">
+							<div class="popular__item-title">RADO</div>
+							<div class="popular__item-price number">65 300 ₽</div>
+							<div class="popular__item-page">
+								<img src="img/watch_1.jpg" alt="">
+								<img class="bg" src="img/Ellipsebg.png" alt="">
+							</div>
+
+							<button class="popular__item-info">Подробнее</button>
+						</div>
+						<div class="popular__item">
+							<div class="popular__item-title">BVLGARI</div>
+							<div class="popular__item-price number">81 700 ₽</div>
+							<div class="popular__item-page">
+								<img src="img/watch_3.jpg" alt="">
+								<img class="bg" src="img/Ellipsebg.png" alt="">
+							</div>
+							<button class="popular__item-info">Подробнее</button>
+						</div>
+						<div class="popular__item">
+							<div class="popular__item-title">RADO</div>
+							<div class="popular__item-price number">72 700 ₽</div>
+							<div class="popular__item-page">
+								<img src="img/watch_4.jpg" alt="">
+								<img class="bg" src="img/Ellipsebg.png" alt="">
+							</div>
+							<button class="popular__item-info">Подробнее</button>
+						</div>
+					</div>
+				</section>
+				<section class="banner">
+					<div class="banner__page">
+						<img src="img/photo_banner.jpg" alt="" class="banner__page-img">
+						<div class="banner__page-pagination number">01</div>
+					</div>
+					<div class="banner__info">
+						<div class="banner__info-title title">Подлинное качество</div>
+						<div class="banner__info-text text">Все часы производятся в Швейцарии и имеют сертификаты качества.
+							Настоящие швейцарские часы — это предмет гордости и престижа.</div>
+						<button class="banner__info-more">СМОТРЕТЬ КАТАЛОГ</button>
+					</div>
+				</section>
+				<section class="news">
+					<div class="news__info">
+						<div class="news__info-title title">Следите за нашими новостями</div>
+						<div class="news__info-text text">Подписывайтесь на <span>@conquest_watch</span> в соцсетях и узнавайте о новинках
+							и акциях первыми.</div>
+						<div class="news__info-social">
+							<a href="#"><img src="img/icons/instagram_icon.svg" alt=""></a>
+							<a href="#"><img src="img/icons/facebook_icon.svg" alt=""></a>
+							<a href="#"><img src="img/icons/twitter_icon.svg" alt=""></a>
+						</div>
+					</div>
+					<div class="news__galary">
+						<img class="page1" src="img/photo_1.jpg" alt="">
+						<img class="page2" src="img/photo_2.jpg" alt="">
+						<img class="page3" src="img/photo_3.jpg" alt="">
+					</div>
+				</section>
+			</div>
+		</main>
+		@@include('html/_footer.htm',{})
+	</div>
+	@@include('html/_popup.htm',{})
+	@@include('html/_js.htm',{})
+</body>
+
+</html>

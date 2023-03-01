@@ -1,0 +1,42 @@
+.footer {
+    background-color: #444240;
+    padding: 70px 0;
+    color: #fff;
+}
+
+.footer__box {
+    display: flex;
+    justify-content: space-between;
+}
+.info {
+    display: flex;
+    flex-direction: column;
+}
+.info__logo {
+    display: flex;
+    align-items: center;
+    margin-bottom: 30px;
+}
+.info__phone {
+    margin-bottom: 15px;
+}
+
+.about {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-title {
+    margin-bottom: 35px;
+    font-weight: 700;
+}
+.list{
+    display: flex;
+    flex-direction: column;
+}
+.list{
+    font-size: 12px;
+    li + li{
+        margin-top: 15px;
+    }
+}
